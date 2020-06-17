@@ -2,13 +2,19 @@ h1 {
     font-size: 3em;
     text-align: center;
     font-family: fantasy;
+    box-shadow: 4px 4px 5px #888888;
     
 }
 
 img {
-    width: 450px;
+    width: 400px;
     height: 300px;
     margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
 
 /* Flexbox */
